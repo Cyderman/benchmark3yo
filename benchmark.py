@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Step 1: Load the summary data
-lookup_table = pd.read_csv("lookup_table.csv")
+lookup_table = pd.read_csv("lookup_table3yo.csv")
 
 # Step 2: Streamlit App
 st.title("3YOs: Enter the details of a run")
